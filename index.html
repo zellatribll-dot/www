@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head> 
+    <meta name="viewport"
+    content="width=device-width,initial-scale=1.0">
+    <meta charset="UTF-8">
+<title>вітаннячка</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Будете кексики?</h1>
+<p>готую кексики на замовлення</p> 
+<div class="content">
+<a
+ href="https://www.instagram.com/zellatribll?igsh=MXB2ZjhxZDZkeDB0bQ==" target="blank" > для заомвлення писати сюди:3</a>
+<img src="balowstwo/me.jpg" width="400px" alt="типа кексики">
+<button id="infoButton">тицяй щоб дізнатися більше</button> 
+<p id="output"></p> 
+<script>
+    const button = document.getElementById("infoButton");
+
+    button.addEventListener("click", function() {
+        const output =
+        document.getElementById("output");
+        output.textContent =`Блаблабла
+
+Я начинающий то се
+
+Буду рада сделать для вас кексики
+
+По вашим предпочтениям
+
+Или вы можете выбрать из представленных ниже
+
+Там вобщем трохи подробностей о том что за кексики и тд
+
+Цены
+
+Виды
+
+Хто их робе
+
+Информацию про то хто пече з яких ингредиентов.`;
+    });
+</script>
+</div>
+</body>
+</html>
